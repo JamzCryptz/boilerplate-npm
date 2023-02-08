@@ -1,18 +1,20 @@
 {
-  "name": "fcc-learn-npm-package-json",
-  "author": "JamzCryptz",
-  "dependencies": {
-    "express": "^4.14.0"
-  },
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "engines": {
-    "node": "8.11.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://idontknow/todo.git"
-  }
+	"name": "fcc-learn-npm-package-json",
+  "author": "chisom",
+  "description": "starter to node",
+  "keywords": [ "freecodecamp", "starter", "node" ],
+  "license": "MIT",
+	"dependencies": {
+		"express": "^4.14.0"
+    "@freecodecamp/example": "1.1.0"
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://idontknow/todo.git"
+	}
 }
+
